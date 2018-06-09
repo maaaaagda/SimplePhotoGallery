@@ -1,21 +1,17 @@
-# simplegallery
+# simple photo gallery
 
-> Just a simple photo gallery 
+> Just a simple photo gallery with albums
 
-## Build Setup
+## How to start the application?
 
 ``` bash
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# start app at localhost:8080 in development mode
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+S
