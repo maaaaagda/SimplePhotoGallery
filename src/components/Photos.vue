@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="jumbotron position-fixed fixed-top row" v-if="albumLoaded">
-      <h1 class="col-10"><b>Album:</b> {{album.title}}</h1>
-      <router-link  class="col-2" :to="'/'">
+      <h1 class="col-12 col-lg-8"><b>Album:</b> {{album.title}}</h1>
+      <router-link  class="col-12 col-lg-4" :to="'/'">
         <button class="btn btn-dark">
           Go back to see all albums
         </button>
