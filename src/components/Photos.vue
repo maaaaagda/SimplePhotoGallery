@@ -39,12 +39,18 @@ export default {
         .then((response) => {
           this.photos = response.data
         })
+        .catch(() => {
+          alert('Upsss, something went wrong. Try again later')
+        })
     },
     getAlbumInfo (albumId) {
       this.$http.get(`https://jsonplaceholder.typicode.com/albums/${albumId}`)
         .then((response) => {
           this.album = response.data
           this.albumLoaded = true
+        })
+        .catch(() => {
+          alert('Upsss, something went wrong. Try again later')
         })
     }
   },

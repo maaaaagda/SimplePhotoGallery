@@ -32,6 +32,9 @@ export default {
         .then((response) => {
           this.myAlbums = response.data
         })
+        .catch(() => {
+          alert('Upsss, something went wrong. Try again later')
+        })
     },
     showPhotos (albumId) {
       this.$router.push(`/albums/${albumId}`)
